@@ -7,6 +7,25 @@
     box-sizing: border-box;
 }
 
+.section-1,
+.section-2 {
+    display: flex;
+
+}
+
+.section-1 {
+    padding: 30px;
+}
+
+.section-2 {
+    padding: 30px;
+    justify-content: center;
+
+}
+
+.special {
+    padding: 10px;
+}
 
 /*-------------------
     GRID LAYOUT
@@ -61,21 +80,6 @@
     background-color: #add8e6;
 }
 
-.section-1,
-.section-2 {
-    display: flex;
-
-}
-
-.section-1 {
-    padding: 10px;
-}
-
-.section-2 {
-    padding: 30px;
-    justify-content: center;
-
-}
 
 .bg-sh2 {
     background-color: #00008b;
