@@ -10,15 +10,11 @@
 .section-1,
 .section-2 {
     display: flex;
-
-}
-
-.section-1 {
     padding: 30px;
+
 }
 
 .section-2 {
-    padding: 30px;
     justify-content: center;
 
 }
@@ -29,6 +25,10 @@
 
 .footer {
     padding-bottom: 0%;
+}
+
+section>div {
+    border: 1px dashed black;
 }
 
 /*-------------------
@@ -98,7 +98,7 @@
 .last {
     min-height: 45px;
     background-color: #7fffd4;
-    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,9 +124,6 @@
     background-color: #00008b;
 }
 
-section>div {
-    border: 1px dashed black;
-}
 
 /*-------------------
     MAIN
