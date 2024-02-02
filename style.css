@@ -88,3 +88,6 @@ section>div {
 /*-------------------
     MAIN
 -------------------*/
+.bg-sm {
+    background-color: #d3d3d3;
+}
