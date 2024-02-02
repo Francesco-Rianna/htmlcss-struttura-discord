@@ -1,0 +1,73 @@
+/*-------------------
+    RESET
+-------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-------------------
+    GRID LAYOUT
+-------------------*/
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.row {
+    background-color: #daa520;
+
+
+}
+
+.row15 {
+    width: 15%;
+
+}
+
+.row70 {
+    width: 70%;
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    min-height: 400px;
+    background-color: #ee82ee;
+}
+
+
+
+/*-------------------
+    HEADER
+-------------------*/
+.bg-sh1 {
+    background-color: #add8e6;
+}
+
+.section-1,
+.section-2 {
+    display: flex;
+
+}
+
+.section-1 {
+    padding: 10px;
+}
+
+.section-2 {
+    padding: 30px;
+    justify-content: center;
+
+}
+
+.bg-sh2 {
+    background-color: #00008b;
+}
+
+section>div {
+    border: 1px dashed black;
+}
